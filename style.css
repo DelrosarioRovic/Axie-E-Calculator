@@ -1,0 +1,127 @@
+body {
+    color: #EAE7B1;
+    background-image: url("images/arena.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    height: 100vh;
+}
+
+.row-container {
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+#score {
+    font-size: 6rem;
+}
+
+.btn_undo {
+    display: block;
+    margin: 200px 0 10px;
+    background-color: #E5E5CB;
+    border-radius: 5px;
+}
+
+.btn_reset {
+    background-color: #FF4A4A;
+    border-radius: 5px;
+}
+
+.middle-box {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 540px;
+}
+
+.left-box {
+    float: left;
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 1px;
+    padding: 0;
+}
+
+.right-box {
+    float: right;
+    height: auto;
+    width: auto;
+    position: absolute;
+    right: 5px;
+    top: 210px;
+    padding: 0;
+}
+
+.plusbtn {
+    background-color: #1CD6CE;
+    color: white;
+    font-size: 2.5rem;
+    padding: 10px 25px 10px 25px;
+}
+
+.numberbtn {
+    background-color: #FF4A4A;
+    color: white;
+    font-size: 2.5rem;
+    padding: 10px 25px 10px 25px;
+}
+
+.end-turn {
+    margin: 10px 0 10px 0;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #FEB139;
+    color: white;
+}
+
+/*CARDS         */
+
+.card-counter p {
+    padding: 15px 20px;
+    background-color: rgb(134, 65, 39);
+    border: solid black 1px;
+    display: block;
+    position: absolute;
+    right: 1px;
+}
+
+.card-counter {
+    position: relative;
+    float: right;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.hidden-card-counter {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    display: none;
+    border: dashed rgb(255, 255, 255);
+}
+
+.numberbtnCard {
+    background-color: #e74242;
+    color: white;
+    font-size: .7rem;
+    padding: 10px 15px;
+}
+
+.plusbtnCard {
+    background-color: #75810a;
+    color: white;
+    font-size: .7rem;
+    padding: 10px 15px;
+}
